@@ -1,7 +1,7 @@
 <template>
-    <header class="header">
-        <nav class="nav">
-            <ul class="links">
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul class="nav-links">
                 <nuxt-link to="/" tag="li">Home</nuxt-link>
                 <nuxt-link to="/popup" tag="li">Popup</nuxt-link>
                 <nuxt-link to="/about" tag="li">About</nuxt-link>
@@ -11,7 +11,7 @@
 </template>
 
 <style scoped>
-    .header {
+    .main-header {
         position: fixed;
         top: 0;
         left: 0;
