@@ -14,13 +14,14 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' },
+      { rel: 'stylesheet', href: '@/assets/style.css'}
+    ],
+    js: [
+      '@/assets/azura.js'
     ]
   },
-
-  link: [
-    { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }
-  ]
 
   /*
   ** Customize the progress-bar color
