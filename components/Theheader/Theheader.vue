@@ -45,10 +45,8 @@
         color: white;
     }
     .nav-links a:hover,
-    .nav-links a:active {
-        color: #06c4d1
-    }
+    .nav-links a:active,
     .nav-links.nuxt-link-active a {
-        color: #06c4d1;
+        color: #06c4d1
     }
 </style>
