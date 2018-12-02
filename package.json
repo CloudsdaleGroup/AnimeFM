@@ -1,7 +1,7 @@
 {
   "name": "AnimeFM",
   "version": "1.0.0",
-  "description": "Your Waifu Favorite Webradio",
+  "description": "You'r Waifu's Favorite Webradio",
   "author": "Quentin Silva",
   "private": true,
   "scripts": {
@@ -11,10 +11,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0-beta",
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0",
-    "bootstrap-vue": "^2.0.0-beta",
-    "bootstrap": "^4.1.3"
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
