@@ -2,10 +2,12 @@
   <div class="container-fluid">
     <div class="row">
     <Theheader />
- 
-        <!--<div class="col col-md-12">
-              <nuxt />
-        </div>-->
+      <logo class="sitelogo">
+        <img class="" src="https://cdn.siriushd.net/logo%20animeFM.png" width="50%" alt="AnimeFM">
+      </logo>
+      <main class="main-content">
+          <nuxt />
+       </main>
     </div>
   </div>
 </template>
@@ -24,6 +26,10 @@ export default {
 * {
   box-sizing: border-box;
 }
-
-
+.main-content {
+  margin-top: 4.5rem;
+}
+.sitelogo {
+  margin-top: 1.8rem;
+}
 </style>
